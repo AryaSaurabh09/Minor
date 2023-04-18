@@ -54,12 +54,19 @@ const Projects = () => {
     if (error) {
       return (
         <Container maxWidth = "lg">
-        <Heading title="Our Projects" subTitle="AN OVERVIEW" />
-        <Box sx={{ display: "flex", justifyContent: "center", my: 20 }}>
-        <Typography variant="h6" sx={{ fontWeight: 600, m: 1 }}>
-          Error loading projects
+        <Heading title="Our Achievements" subTitle="Academics" />
+        <Typography
+          mx={5}
+          variant="body1"
+          color={Secondary}
+          sx={{ fontSize: { xs: 15, sm: 15, md: 17.5 } }}
+        >
+          <ul>
+            <li><b>NAVODAYA VIDYALAYA SELECTION : </b>You would be delighted to know that 10 students of Prayaas got admission into prestigious Navodaya Vidyalaya School. Navodaya schools aim to provide good quality modern education to the talented children predominantly from the rural areas without regard to their economic conditions. </li>
+            <li><b>MERITORIOUS SCHOOL SELECTION : </b> <br />  ➢ Happy to share that 2 students of Prayaas got admission into prestigious <br />   ➢ Meritorious School.Meritorious schools’ is a project initiated by honorable Punjab chief minister Parkash Singh Badal on lines of ‘Super 30’, aimed at nurturing bright matriculates from government schools, preparing them for admission to top professional courses after Class 12.</li>
+            <li><b>SUCCESS IN JEE MAINS EXAM : </b> <br />  ➢ Last year 3  of Prayaas students have cleared JEE MAINS exam. Now ,They are studying at our prestigious institute NIT Jalandhar. <br />➢ Prayaas helped them in their preparation, counselling process and admission process. <br />➢ Prayaas also paid admission fees for one of the students.</li>
+          </ul>
         </Typography>
-        </Box>
       </Container>
       );
     }

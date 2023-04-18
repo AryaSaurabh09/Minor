@@ -78,15 +78,15 @@ const EventsPage = () => {
           Volunteers can Donate At : <br />
         </Typography> */}
         <Typography
-          mx={5}
+          mx={46}
           variant="body1"
-          color={Secondary}
+          color={"black"}
           sx={{ fontSize: { xs: 15, sm: 15, md: 17.5 } }}
         >
            <b>Bank Name:</b> Canara bank <br />
            <b>Account Holder:</b> Prayaas Society NIT Jalandhar <br />
            <b>A/c No:</b> 2945101002019 <br />
-           <b>IFSC Code:</b> CNRB0002945 <br /> <br /> <br />
+           <b>IFSC Code:</b> CNRB0002945 <br /> <br />
         </Typography>
       </Container>
     );
