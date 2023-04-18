@@ -54,7 +54,25 @@ const Projects = () => {
     if (error) {
       return (
         <Container maxWidth = "lg">
-        <Heading title="Our Achievements" subTitle="Academics" />
+        {/* <Heading title="Our Achievements" subTitle="" /> */}
+        <Typography
+          marginTop={7}
+          variant="h1"
+          color={Secondary}
+          fontWeight={700}
+          sx={{ fontSize: { xs: 45, sm: 45, md: 65 } }}
+        >
+         Our Achievements
+        </Typography>
+        <Typography
+          mx={3}
+          my={3}
+          variant="h4"
+          color={"black"}
+          sx={{ fontSize: { xs: 25, sm: 25, md: 32 } }}
+        >
+         Academics
+        </Typography>
         <Typography
           mx={5}
           variant="body1"
@@ -66,6 +84,33 @@ const Projects = () => {
             <li><b>MERITORIOUS SCHOOL SELECTION : </b> <br />  ➢ Happy to share that 2 students of Prayaas got admission into prestigious <br />   ➢ Meritorious School.Meritorious schools’ is a project initiated by honorable Punjab chief minister Parkash Singh Badal on lines of ‘Super 30’, aimed at nurturing bright matriculates from government schools, preparing them for admission to top professional courses after Class 12.</li>
             <li><b>SUCCESS IN JEE MAINS EXAM : </b> <br />  ➢ Last year 3  of Prayaas students have cleared JEE MAINS exam. Now ,They are studying at our prestigious institute NIT Jalandhar. <br />➢ Prayaas helped them in their preparation, counselling process and admission process. <br />➢ Prayaas also paid admission fees for one of the students.</li>
           </ul>
+        </Typography>
+        {/* <Heading title="" subTitle="General" /> */}
+        <Typography
+          mx={3}
+          my={3}
+          variant="h4"
+          color={"black"}
+          sx={{ fontSize: { xs: 25, sm: 25, md: 32 } }}
+        >
+         General
+        </Typography>
+        
+        <Typography
+          mx={5}
+          variant="body1"
+          color={Secondary}
+          sx={{ fontSize: { xs: 15, sm: 15, md: 17.5 } }}
+        >
+
+        <ul>
+          <li>Various children have been admitted to schools. </li>
+          <li>Prayaas provides stationary and admission fees to these children.</li>
+          <li>Prayaas is successfully running three centers : </li>
+        </ul>
+       ⮚VInside the Campus - Science Block <br /> ⮚Maqsudan - Arya Samaj Mandir <br /> ⮚Amanatpur <br /> <br />
+
+         
         </Typography>
       </Container>
       );

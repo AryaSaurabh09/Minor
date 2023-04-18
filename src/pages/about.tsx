@@ -7,7 +7,7 @@ import AboutGrid from "../components/AboutCard";
 const About = () => {
   return (
     <Container maxWidth="lg">
-      <Heading title="About" subTitle="OBJECTIVES :" />
+      <Heading title="About" subTitle="OBJECTIVES " />
       <Typography mx={5} my={2} variant="body1" color={Secondary} fontSize={22}>
         To teach the children who are devoid of education and are socially deprived.
         To develop compassion and humaneness in the students.

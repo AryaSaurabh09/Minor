@@ -75,7 +75,7 @@ const Contact = () => {
             &#x2015;&#x2015;&#x2015;&#x2015;&#x2015;
           </span>
         </Text>
-        <Text color="#17205F" width="65vw" mt={25} ml={6} mb={18}>Please get in touch and our expert support team will answer all your questions.</Text> 
+        <Text color="#17205F" width="65vw" mt={25} ml={6} mb={18} fontSize={18}>Please get in touch and our expert support team will answer all your questions.</Text> 
     </Box>
     <Box>
     <Center>
