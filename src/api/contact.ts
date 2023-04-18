@@ -9,6 +9,7 @@ const Submit = async (inputs:{name:string,mail:string,subject:string}, textarea:
       method:'POST',
       body:JSON.stringify(msg),
       headers:{'Content-Type' : 'application/json'}
+      /* const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}`+"api/contact/post",{saurabharya2421@gmail.com}*/
     })
     return response
   }
