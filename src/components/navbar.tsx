@@ -72,7 +72,6 @@ const MenuLinks: A = ({ toggle , isOpen }) => {
         <Link to="/events" style={currentLink==="events"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("events");toggle()}}>Donate</Link>
         <Link to="/projects" style={currentLink==="projects"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("project");toggle()}}>Achievements</Link>
         <Link to="/contact" style={currentLink==="contact"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("contact");toggle()}}>Contact</Link>
-        <Link to="/donate" style={currentLink==="about"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("donate");toggle()}}>Test</Link>
         <Box></Box>
       </Stack>
     </Box>

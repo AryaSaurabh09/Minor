@@ -59,22 +59,35 @@ const EventsPage = () => {
   if (error) {
     return (
       <Container maxWidth="lg">
-        <Heading title="Events" subTitle="WHAT WE DO" />
+        <Heading title="DONATE" subTitle="Why should we Donate to PRAYAAS ?" />
         <Typography
           mx={5}
           variant="body1"
           color={Secondary}
-          sx={{ fontSize: { xs: 20, sm: 20, md: 25 } }}
+          sx={{ fontSize: { xs: 15, sm: 15, md: 17.5 } }}
         >
-          The Club Conducts various other events throughout the academic year,
-          to engage with the student community and introduce them to important
-          concepts and new advancements in finance.
+          Since 2008, PRAYAAS has been striving hard to bring a change in the lives of the underprivileged kids by giving them the gift of Education. Presently, around <b>360 kids</b> are being regularly taught. <br />PRAYAAS believes on the motto- <b>“An hour a day keeps illiteracy away.”</b> <br />Hence, each volunteer of PRAYAAS, devotes time- each evening; dedicatedly at the THREE CENTRES of PRAYAAS. Many kids, who were unaware of the meaning of Education and hence lingered here and there, have been admitted to schools. There is a requirement of basic amenities like chalks, notebooks, pencils, pen, etc. on a daily basis in PRAYAAS. Hence, we shall urge you to Donate to PRAYAAS and help us in this noble cause. <br /><b>We shall be more than happy if you could devote your precious time & help us in teaching them.☺</b> 
         </Typography>
-        <Box sx={{ display: "flex", justifyContent: "center", my: 10 }}>
-          <Typography variant="h6" sx={{ fontWeight: 600, m: 1 }}>
-            Error loading events
-          </Typography>
-        </Box>
+        <Heading title="" subTitle="Volunteers can Donate At : " />
+        {/* <Typography
+          mx={5}
+          variant="body1"
+          color={"black"}
+          sx={{ fontSize: { xs: 25, sm: 25, md: 32 } }}
+        >
+          Volunteers can Donate At : <br />
+        </Typography> */}
+        <Typography
+          mx={5}
+          variant="body1"
+          color={Secondary}
+          sx={{ fontSize: { xs: 15, sm: 15, md: 17.5 } }}
+        >
+           <b>Bank Name:</b> Canara bank <br />
+           <b>Account Holder:</b> Prayaas Society NIT Jalandhar <br />
+           <b>A/c No:</b> 2945101002019 <br />
+           <b>IFSC Code:</b> CNRB0002945 <br /> <br /> <br />
+        </Typography>
       </Container>
     );
   }
