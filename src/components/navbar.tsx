@@ -69,9 +69,8 @@ const MenuLinks: A = ({ toggle , isOpen }) => {
       >
         <Link to="/" style={currentLink==="home"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("home");toggle()}}>Home</Link>
         <Link to="/about" style={currentLink==="about"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("about");toggle()}}>About</Link>
-        <Link to="/events" style={currentLink==="events"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("events");toggle()}}>Events</Link>
-        <Link to="/members" style={currentLink==="members"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("members");toggle()}}>Members</Link>
-        <Link to="/projects" style={currentLink==="projects"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("project");toggle()}}>Projects</Link>
+        <Link to="/events" style={currentLink==="events"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("events");toggle()}}>Donate</Link>
+        <Link to="/projects" style={currentLink==="projects"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("projects");toggle()}}>Achievements</Link>
         <Link to="/contact" style={currentLink==="contact"?{color:"white"}:{color:"#C8CFFF"}} onClick={()=>{setCurrentLink("contact");toggle()}}>Contact</Link>
         <Box></Box>
       </Stack>

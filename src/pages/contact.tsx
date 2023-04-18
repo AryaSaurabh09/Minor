@@ -75,7 +75,7 @@ const Contact = () => {
             &#x2015;&#x2015;&#x2015;&#x2015;&#x2015;
           </span>
         </Text>
-        <Text color="#17205F" width="65vw" mt={25} ml={6} mb={18}>Please get in touch and our expert support team will answer all your questions.</Text> 
+        <Text color="#17205F" width="65vw" mt={25} ml={6} mb={18} fontSize={18}>Please get in touch and our expert support team will answer all your questions.</Text> 
     </Box>
     <Box>
     <Center>
@@ -138,15 +138,15 @@ const Contact = () => {
     <VStack>
       <HStack borderWidth="1px" borderColor="rgba(8,17,79,0.33)" borderTop="none" borderLeft="none" borderRight="none" pr={[0,0,10]} >
       <Box width={[65,130,220]} height={85} textAlign="center" pt={30} borderColor="rgba(8,17,79,0.33)" borderWidth="1px" borderTop="none" borderLeft="none" borderBottom="none"><FontAwesomeIcon color="#2F3980" icon={faLocationDot} size="2x"></FontAwesomeIcon></Box>
-      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">ProfNITT, National Institute of Technology, Tanjore Main Road, NH67, near BHEL, Tiruchirappalli, Tamil Nadu 620015</Text>
+      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">Grand Trunk Road, Barnala - Amritsar Bypass Rd, Jalandhar, Punjab 144011</Text>
       </HStack>
       <HStack borderWidth="1px" borderColor="rgba(8,17,79,0.33)" borderTop="none" borderLeft="none" borderRight="none" pr={[0,0,10]} >
       <Box width={[65,130,220]} height={85} textAlign="center" mt={-2} pt={30} borderColor="rgba(8,17,79,0.33)" borderWidth="1px" borderTop="none" borderLeft="none" borderBottom="none"><FontAwesomeIcon color="#2F3980" icon={faPhone} size="2x"></FontAwesomeIcon></Box>
-      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">(+91) 97789 60737</Text>
+      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">(+91) 88247 44414</Text>
       </HStack>
       <HStack pr={[0,0,10]} >
       <Box width={[65,130,220]} height={85} textAlign="center" mt={-2} pt={30} borderColor="rgba(8,17,79,0.33)" borderWidth="1px" borderTop="none" borderLeft="none" borderBottom="none"><FontAwesomeIcon color="#2F3980" icon={faEnvelope} size="2x"></FontAwesomeIcon></Box>
-      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">profnitt.club@gmail.com</Text>
+      <Text width={[255,320,400]} pl={[5,5,10]} color="#000B56">saurabharya2421@gmail.com</Text>
       </HStack>
     </VStack>      
     </Center>

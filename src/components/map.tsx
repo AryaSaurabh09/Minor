@@ -5,8 +5,8 @@ class Map extends Component{
     
     static defaultProps = {
         center: {
-            lat: 10.7589,
-            lng: 78.8132,
+            lat: 31.39715612848645,
+            lng: 75.53604841232301,
         },
         zoom: 17,
         key: 'AIzaSyAVcA8AwyUkedvJlnEcXF5BFUaq7d5IbUo',
@@ -14,11 +14,11 @@ class Map extends Component{
     renderMarkers(map:any, maps:any) {
       new maps.Marker({
         position: {
-          lat: 10.7589,
-          lng: 78.8132,
+          lat: 31.39715612848645,
+          lng: 75.53604841232301,
         },
         map,
-        title: "ProfNITT, NIT Trichy",
+        title: "Prayaas, NIT Jalandhar",
       });
     }
 

@@ -29,24 +29,24 @@ const OurJourney:React.FC = () => {
       <img src='/imageData/risingArrow.png' alt='' className='rising_arrow'/>
       <div className={mobileView?'journeys-mobileview':'journeys'}>
         <div className={mobileView?' journey-mobileview':"f journey"}>
-            <strong>2018, July</strong>
+            <strong>2008</strong>
             <br />
-            First month into college a bunch of first years who wanted to learn about finance through a club, thought of starting one on their own. 
+            PRAYAAS was founded in 2008 by a group of NITJ students led by Chemistry Professor Dr. Balbir Singh Kaith with the goal of improving the lives of deprived children in the community.
         </div>
         <div className={mobileView?' journey-mobileview':"s journey"}>
-            <strong>2018, November</strong>
+            <strong>2014</strong>
             <br />
-            The Whatsapp series was launched with more than 500 initial joiners and an unprecedented success.
+            Maqsudan - Arya Samaj Mandir centre was opened in 2014 after a survey in the nearby Village named Maqsudan.
         </div>
         <div className={mobileView?' journey-mobileview':"t journey"}>
-            <strong>2019, January</strong>
+            <strong>2019</strong>
             <br />
-            First inductions were announced.
+            Amanatpur centre was opened in the year 2019. This was opened as a result of a survey conducted in villages nearby.
         </div>
         <div className={mobileView?' journey-mobileview':"p journey"}>
             <strong>Present</strong>
             <br/>
-            Now, an official club of NITT with an enthusiastic group of students that actively conduct panel discussions, guest lectures, finance events etc.
+            Presently we teach around 120 kids inside the campus at the newly constructed Science Block and around 180 kids at Maqsudan Centre and around 60 kids at Amanatpur Centre.
         </div>
       </div>
     </div>
