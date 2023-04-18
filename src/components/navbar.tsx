@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <ChakraProvider theme={Theme}>
     <NavBarContainer>
-      <Image src="/profnitt_logo.png" ml={10} htmlHeight={40} htmlWidth={70} />
+      <Image src="/logo.png" ml={10} htmlHeight={40} htmlWidth={70} />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks toggle={toggle} isOpen={isOpen} />
     </NavBarContainer>

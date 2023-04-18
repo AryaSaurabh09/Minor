@@ -25,27 +25,21 @@ const Footer = () => {
     >
       <VStack pt={10} minHeight="40vh">
         <Container maxW="container.md" textAlign="center" centerContent>
-          <Image src="/profnitt_logo.png" htmlHeight={80} htmlWidth={140} />
+          <Image src="/logo.png" htmlHeight={80} htmlWidth={140} />
           <Text pt={5} fontSize="xl" color="#8288B3">
-            The Finance and Investments Club
-          </Text>
-          <Text fontSize="xl" color="#8288B3">
-            of NIT Trichy
+          A Campaign for Smile.... 😊
           </Text>
         </Container>
         <HStack>
           {/* <a href="" className="facebook" style={{margin:"15px",color:"rgba(255, 255, 255, 0.4)"}}>
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a> */}
-          <a href="https://www.instagram.com/profnitt/?hl=en" target="_blank" className="instagram" style={{margin:"15px",color:"rgba(255, 255, 255, 0.4)"}}>
+          <a href="https://www.instagram.com/Prayaas_NITJ/?hl=en" target="_blank" className="instagram" style={{margin:"15px",color:"rgba(255, 255, 255, 0.4)"}}>
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
-          <a href="https://www.linkedin.com/company/profnitt/" target="_blank" className="linkedin" style={{margin:"15px",color:"rgba(255, 255, 255, 0.4)"}}>
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
-          </a>
+
         </HStack>
       </VStack>
-      <Center><Text pb={10} color={"#FFFFFF"}>Weaved with 🕸️ by Spider</Text></Center>
     </Container>
     </ChakraProvider>
   );

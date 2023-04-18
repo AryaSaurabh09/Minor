@@ -98,10 +98,9 @@ const HomeSlider :React.FC<images> = ({homeImages}) => {
         </div>
         <div className={textAnimate?"img_caption animate":"img_caption"}>
           <div className='heading'>
-            <div className="highlited">Prof</div>
-            <div className="heading2">NITT</div>
+            <div className="highlited">Prayaas</div>
           </div>
-            <div className={textAnimate?'heading-caption caption-animate':'heading-caption'}>The Finance and Investment club <span>of NIT Trichy</span></div>
+            <div className={textAnimate?'heading-caption caption-animate':'heading-caption'}>A Campaign for Smile.... 😊</div>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Home:React.FC = () => {
   const [loading,setLoading]=useState(false)
   const [data,setData]=useState<data[]>([]);
   const homeSliderData:string[] = ['/imageData/slider1.png','/imageData/slider2.png','/imageData/slider3.png','/imageData/slider4.png'];
-  const galleryData:string[]=['/imageData/gallery1.png','/imageData/gallery2.png','/imageData/gallery3.png']
+  const galleryData:string[]=['/imageData/gallery1.jpg','/imageData/gallery2.jpg','/imageData/gallery3.jpg','/imageData/gallery4.jpg','/imageData/gallery5.jpg','/imageData/gallery6.jpg','/imageData/gallery7.jpg']
   const [height,setHeight] = useState<String>('40vh')
   const [windowSize, setWindowSize] = useState(window.innerWidth);
     useEffect(() => {
